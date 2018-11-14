@@ -46,7 +46,9 @@
                                              [SCFilter filterWithCIFilterName:@"CIPhotoEffectChrome"],
                                              [SCFilter filterWithCIFilterName:@"CIPhotoEffectInstant"],
                                              [SCFilter filterWithCIFilterName:@"CIPhotoEffectTonal"],
-                                             [SCFilter filterWithCIFilterName:@"CIPhotoEffectFade"]
+                                             [SCFilter filterWithCIFilterName:@"CIPhotoEffectFade"],
+                                             [SCFilter filterWithCIFilterName:@"CIGaussianBlur"],
+                                             [SCFilter filterWithCIFilterName:@"CIBloom"],
                                              ];
 }
 
